@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TICTACTOE</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="tictactoe.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="display-4">TIC TAC TOE!  </h1>
+      <p class="lead">Joe's simple Tic Tac Toe game!</p>
+      <p>Try and play!</p>
+      <p class="lead">
+        <button class="btn btn-primary btn-lg" onclick="newGame()">Restart</button>
+      </p>
+    </div>
+
+    <table align="center">
+
+      <h3 align='center', id='currentText'>Current Player: </h3>
+      <h3 align='center', id="current">X</h3><br><br>
+      
+     
+      <tr>
+        <td id="0"></td>
+        <td id="1"></td>
+        <td id="2"></td>
+      </tr>
+      <tr>
+        <td id="3"></td>
+        <td id="4"></td>
+        <td id="5"></td>
+      </tr>
+      <tr>
+        <td id="6"></td>
+        <td id="7"></td>
+        <td id="8"></td>
+      </tr>
+
+    </table>
+
+
+
+<script src= "tictactoe.js"></script>
+  </div>
+</html>
